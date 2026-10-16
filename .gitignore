@@ -1,0 +1,7 @@
+# Submitted ADR reports are patient data and must never be committed.
+# This repository is public; the server creates this folder at runtime.
+backend/data/
+
+# Windows / macOS clutter
+Thumbs.db
+.DS_Store
